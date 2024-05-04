@@ -9,13 +9,11 @@ Markdown is transformed into nice-looking HTML.
 
 ### Authored Assets
 
-* Example 1 Asset Name
-  - `resources/path/to/file`
-  - Your Name. Year.
+No third-party assets were used in this project. All visual and programming assets were created and implemented by the project developer.
 
-* Example 2 Asset Name
-  - `resources/path/to/file`
-  - Your Name. Year.
+* Code Files
+  - `src/cs1302/api/`
+  - Manish Chakka. 2024.
 
 ### Assets Authored by Others
 
@@ -23,14 +21,4 @@ Markdown is transformed into nice-looking HTML.
 > you should list it as "Assumed proprietary: using under academic fair use."
 > instead of leaving the license information blank.
 
-* Example 1 Asset Name
-  - `resources/path/to/file`
-  - Author. Year.
-  - URL
-  - License
-
-* Example 2 Asset Name
-  - `resources/path/to/file`
-  - Author. Year.
-  - URL
-  - License
+No third-party assets were used in this project. All materials are original creations by the project developer.

@@ -14,7 +14,9 @@ Markdown is transformed into nice-looking HTML.
 
 > **Also, include the GitHub `https` URL to your repository.**
 
-TODO WRITE / REPLACE
+The AirDetails Application provides real-time air quality and weather data for selected locations. It utilizes the LocationIQ API for geocoding and the IQAir API to fetch air quality data, allowing users to view current wind speeds and directions after selecting a location. This combination of APIs helps users make informed decisions about outdoor activities based on air quality conditions.
+
+https://github.com/ManishUGA/cs1302-api-app
 
 ## Part 1.2: APIs
 
@@ -25,32 +27,32 @@ TODO WRITE / REPLACE
 > information are provided below. If your app uses more than two RESTful
 > JSON APIs, then include them with similar formatting.
 
-### API 1
+### LocationIQ API
 
 ```
-https://.../replace/me
+https://us1.locationiq.com/v1/search.php?key=pk.9e9dedacb2acce21c1dd1bcf779c542e&q={Location}&format=json
 ```
 
-> Replace this line with notes (if needed) or remove it (if not needed).
+> This API is used to convert location names to geographic coordinates, essential for querying the IQAir API.
 
-### API 2
+### IQAir API
 
 ```
-https://../replace/me
+http://api.airvisual.com/v2/nearest_city?lat={latitude}&lon={longitude}&key=7efd9977-ea62-4845-8581-bf14a6f6a62e
 ```
 
-> Replace this line with notes (if needed) or remove it (if not needed).
+> This API provides detailed air quality reports including wind speed and direction, used directly to inform users about the current air conditions.
 
 ## Part 2: New
 
 > What is something new and/or exciting that you learned from working
 > on this project?
 
-TODO WRITE / REPLACE
+Throughout this project, I learned how to integrate and manipulate data from multiple RESTful APIs effectively. The challenge of synchronizing asynchronous requests and updating the UI in a responsive manner was particularly enlightening.
 
 ## Part 3: Retrospect
 
 > If you could start the project over from scratch, what do
 > you think might do differently and why?
 
-TODO WRITE / REPLACE
+If starting over, I would implement a feature to automatically detect the user's location rather than selecting from preset locations. This would enhance user experience by providing immediate, relevant data without manual input.
