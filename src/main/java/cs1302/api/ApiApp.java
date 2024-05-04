@@ -27,7 +27,6 @@ import javafx.util.Duration;
 import javafx.scene.input.KeyCode;
 import javafx.scene.Node;
 import cs1302.api.LocationResponse;
-//import com.google.gson.JsonSyntaxException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 import javafx.scene.text.Font;
